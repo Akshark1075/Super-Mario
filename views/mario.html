@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Super Mario</title>
+    <style>
+        
+    
+      </style>
+  </head>
+  <body>
+    
+    <audio autoplay loop id="bgMusic">
+      <source src="./assets/audio/mario.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="jumpMusic">
+      <source src="./assets/audio/jump.wav" type="audio/mpeg">
+    </audio>
+    <audio id="coinSound">
+      <source src="./assets/audio/coin.wav" type="audio/mpeg">
+    </audio>
+    <audio id="brickBreak">
+      <source src="./assets/audio/brickBreak.wav" type="audio/mpeg">
+    </audio>
+    <audio id="mushroom">
+      <source src="./assets/audio/mushroom.wav" type="audio/mpeg">
+    </audio>
+    <audio id="bump">
+      <source src="./assets/audio/bump.wav" type="audio/mpeg">
+    </audio>
+    <audio id="powerUp">
+      <source src="./assets/audio/powerup.wav" type="audio/mpeg">
+    </audio>
+    <audio id="powerDown">
+      <source src="./assets/audio/powerDown.wav" type="audio/mpeg">
+    </audio>
+    <audio id="stomp" >
+      <source src="./assets/audio/stomp.wav" type="audio/mpeg"preload="auto">
+    </audio>
+    <audio id="dead" >
+      <source src="./assets/audio/dead.wav" type="audio/mpeg"preload="auto">
+    </audio>
+    <audio id="winner" >
+      <source src="./assets/audio/winner.wav" type="audio/mpeg"preload="auto">
+    </audio>
+   <canvas id="canvas">    </canvas>
+   <div style="display:none;">
+    <img id="playerRight1"
+         src="./assets/images/marioRight1.png"
+         width="300" height="227">
+         <img id="playerRight2"
+         src="./assets/images/marioRight2.png"
+         width="300" height="227">
+         <img id="playerLeft1"
+         src="./assets/images/marioLeft1.png"
+         width="300" height="227">
+         <img id="playerLeft2"
+         src="./assets/images/marioLeft2.png"
+         width="300" height="227">
+         <img id="playerJumpRight"
+         src="./assets/images/marioJumpRight.png"
+         width="300" height="227">
+         <img id="playerJumpLeft"
+         src="./assets/images/marioJumpLeft.png"
+         width="300" height="227">
+         <img id="playerDead"
+         src="./assets/images/marioDead.png"
+         width="300" height="227">
+         <img id="bg"
+         src="./assets/images/bg.jpg"
+         width="300" height="227">
+         <img id="platform"
+         src="./assets/images/ground.jpg"
+         width="300" height="227">
+         <img id="brick"
+         src="./assets/images/brick.jpg"
+         width="300" height="227">
+         <img id="bumpBrick"
+         src="./assets/images/bumpBrick.png"
+         width="300" height="227">
+         <img id="coin"
+         src="./assets/images/mysteryBrick.png"
+         width="300" height="227">
+         <img id="pipe"
+         src="./assets/images/pipe.png"
+         width="300" height="227">
+         <img id="mushroomImg"
+         src="./assets/images/mushroom.png"
+         width="300" height="227">
+         <img id="enemy1"
+         src="./assets/images/nemy1.png"
+         width="300" height="227">
+         <img id="castle"
+         src="./assets/images/castle.png"
+         width="300" height="227">
+         <img id="stone"
+         src="./assets/images/stone.png"
+         width="300" height="227">
+         <img id="victoryFlag"
+         src="./assets/images/victoryFlag.png"
+         width="300" height="227">
+         
+  </div>
+    
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   <script src="./assets/mario.js"></script>
+  </body>
+</html>
