@@ -672,7 +672,10 @@ function init(){
     
     animate()
 }
-window.onload=init()
+window.onload=function() {
+    init();
+
+  };
 
  
  
